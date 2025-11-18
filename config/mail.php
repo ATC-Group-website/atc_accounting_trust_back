@@ -115,4 +115,6 @@ return [
         'name' => env('MAIL_FROM_NAME', 'Example'),
     ],
 
+    'mail_to' => env('MAIL_TO', 'info@atcaccountingtrust.com'),
+    'temporary_mail_to' => env('MAIL_TEMP_TO'),
 ];
